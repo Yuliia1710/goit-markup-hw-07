@@ -6,9 +6,9 @@
 
 .page-header {
   border-bottom: 1px solid #ececec;
-}
-.page-header .container {
-  background-color: $primaryWhiteColor;
+  .container {
+    background-color: $primaryWhiteColor;
+  }
 }
 
 .nav-list__link {
@@ -16,7 +16,7 @@
   position: relative;
 }
 
-.current.nav-list__link::after {
+.current::after {
   content: "";
   display: block;
   height: 4px;

@@ -5,10 +5,9 @@
 .work__list {
   display: flex;
   padding-top: 0;
-}
-
-.work__list .work__item:not(:last-child) {
-  margin-right: 30px;
+  .work__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .title {

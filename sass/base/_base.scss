@@ -25,6 +25,13 @@ p {
   text-decoration: none;
 }
 
+.link:hover {
+  color: $accentColor;
+}
+.link:focus {
+  color: $accentColor;
+}
+
 .list {
   list-style: none;
   padding-left: 0;
