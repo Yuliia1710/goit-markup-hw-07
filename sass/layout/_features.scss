@@ -6,33 +6,31 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  &__icon {
+    display: inline-block;
+  }
 }
 
-.features-icons__icon {
-  display: inline-block;
-}
-
-.features__list {
-  display: flex;
-}
-
-.features__list .features__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.features__title {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: $primaryTextColor;
-  margin-top: 0;
-  margin-bottom: $specificIdent;
-}
-
-.features__text {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: $secondaryTextColor;
+.features {
+  &__list {
+    display: flex;
+  }
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primaryTextColor;
+    margin-top: 0;
+    margin-bottom: $specificIdent;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $secondaryTextColor;
+  }
 }
