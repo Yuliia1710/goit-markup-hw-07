@@ -136,11 +136,11 @@
     letter-spacing: 0.06em;
     color: $primaryWhiteColor;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus {
+      border: 1px solid $accentColor;
+    }
   }
 
-  &:focus {
-    border: 1px solid $accentColor;
-  }
   &::placeholder {
     font-size: 16px;
     line-height: 1.25;
